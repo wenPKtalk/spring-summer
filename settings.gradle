@@ -1,2 +1,4 @@
 rootProject.name = 'spring-summer'
+include 'order'
+include 'core'
 
