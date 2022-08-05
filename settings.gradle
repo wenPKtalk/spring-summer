@@ -1,4 +1,4 @@
 rootProject.name = 'spring-summer'
-include 'order'
-include 'core'
+include 'summer-core'
+include 'summer-app'
 
