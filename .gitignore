@@ -10,3 +10,8 @@
 ./.gradle/
 /.gradle/
 /.idea/
+/buildSrc/.gradle/
+/buildSrc/build/
+/summer-app/build/
+/summer-core/build/
+/summer-commons/build/
