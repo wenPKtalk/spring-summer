@@ -1,4 +1,5 @@
 rootProject.name = 'spring-summer'
 include 'summer-core'
 include 'summer-app'
+include 'summer-commons'
 
