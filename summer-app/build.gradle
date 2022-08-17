@@ -1,24 +1,9 @@
 plugins {
-    id 'java'
+    id 'multimodule-config'
+    id 'spring-conventions'
 }
-
-group 'com.topsion'
-version '1.0-SNAPSHOT'
 
 repositories {
     maven { url "https://maven.aliyun.com/repository/public" }
     maven { url "https://maven.aliyun.com/repository/gradle-plugin" }
-}
-
-dependencies {
-    implementation 'org.springframework.boot:spring-boot-starter-parent:2.3.12.RELEASE'
-    implementation 'org.springframework.boot:spring-boot-starter'
-    implementation 'org.springframework.boot:spring-boot-starter-web'
-    testImplementation 'org.springframework.boot:spring-boot-starter-test'
-    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
-    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
-}
-
-test {
-    useJUnitPlatform()
 }
