@@ -7,3 +7,13 @@ repositories {
     maven { url "https://maven.aliyun.com/repository/public" }
     maven { url "https://maven.aliyun.com/repository/gradle-plugin" }
 }
+
+springBoot {
+    mainClass = 'com.topsion.CoreApplication'
+}
+
+tasks.named("bootJar") {
+    manifest {
+        attributes 'Start-Class': 'com.topsion.CoreApplication'
+    }
+}
