@@ -2,6 +2,7 @@ package com.topsion.integration;
 
 
 import org.junit.ClassRule;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.util.TestPropertyValues;
@@ -19,8 +20,8 @@ public class UserRepositoryTCIntegrationTest{
     @ClassRule
     public static PostgreSQLContainer postgreSQLContainer = new PostgreSQLContainer("postgres:11.1")
             .withDatabaseName("integration-tests-db")
-            .withUsername("sa")
-            .withPassword("sa");
+            .withUsername("postgres")
+            .withPassword("123456");
     static class Initializer implements ApplicationContextInitializer<ConfigurableApplicationContext> {
         public void initialize(ConfigurableApplicationContext configurableApplicationContext) {
             TestPropertyValues.of(
@@ -31,4 +32,7 @@ public class UserRepositoryTCIntegrationTest{
         }
     }
 
+    @BeforeEach
+    void setUp() {
+    }
 }
