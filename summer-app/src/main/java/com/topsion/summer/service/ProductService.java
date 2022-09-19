@@ -1,11 +1,22 @@
 package com.topsion.summer.service;
 
+import com.topsion.summer.repository.product.ProductRepository;
+import com.topsion.summer.repository.product.entity.Product;
 import org.springframework.stereotype.Service;
 
 @Service
 public class ProductService {
 
-    public Boolean createProduct(ProductDto productDto) {
+    final ProductRepository repository;
+
+    public ProductService(ProductRepository repository) {
+        this.repository = repository;
+    }
+
+    public Boolean createProduct(ProductCreateCommand productCreateCommand) {
+        Product product = new Product();
+        product.createFrom(productCreateCommand);
+        Product newProduct = repository.save(product);
         return false;
     }
 }
