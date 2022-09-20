@@ -1,4 +1,4 @@
-package com.topsion.summer.resource;
+package com.topsion.summer.presentation;
 
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;

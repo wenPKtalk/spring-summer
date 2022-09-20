@@ -1,4 +1,4 @@
-package com.topsion.summer.resource;
+package com.topsion.summer.presentation;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

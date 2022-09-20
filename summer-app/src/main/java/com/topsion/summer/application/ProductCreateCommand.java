@@ -1,4 +1,4 @@
-package com.topsion.summer.service;
+package com.topsion.summer.application;
 
 import lombok.Getter;
 

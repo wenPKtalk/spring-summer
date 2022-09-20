@@ -1,6 +1,6 @@
 package com.topsion.summer.repository.product.entity;
 
-import com.topsion.summer.service.ProductCreateCommand;
+import com.topsion.summer.application.ProductCreateCommand;
 import lombok.Getter;
 
 import javax.persistence.*;

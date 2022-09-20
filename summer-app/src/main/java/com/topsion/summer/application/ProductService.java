@@ -1,4 +1,4 @@
-package com.topsion.summer.service;
+package com.topsion.summer.application;
 
 import com.topsion.summer.repository.product.ProductRepository;
 import com.topsion.summer.repository.product.entity.Product;
