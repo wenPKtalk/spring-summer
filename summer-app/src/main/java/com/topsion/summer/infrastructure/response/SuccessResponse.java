@@ -1,4 +1,4 @@
-package com.topsion.summer.common;
+package com.topsion.summer.infrastructure.response;
 
 public class SuccessResponse<T> {
     private SuccessDTO<T> response;

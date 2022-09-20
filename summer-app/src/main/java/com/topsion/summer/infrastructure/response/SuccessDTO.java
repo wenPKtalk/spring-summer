@@ -1,4 +1,4 @@
-package com.topsion.summer.common;
+package com.topsion.summer.infrastructure.response;
 
 import java.util.List;
 import java.util.Map;
