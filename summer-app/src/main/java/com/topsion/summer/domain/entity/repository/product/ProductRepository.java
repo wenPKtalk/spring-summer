@@ -1,6 +1,5 @@
-package com.topsion.summer.repository.product;
+package com.topsion.summer.domain.entity.repository.product;
 
-import com.topsion.summer.repository.product.entity.Product;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 

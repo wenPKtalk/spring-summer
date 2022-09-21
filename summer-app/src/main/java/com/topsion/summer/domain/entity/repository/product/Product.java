@@ -1,4 +1,4 @@
-package com.topsion.summer.repository.product.entity;
+package com.topsion.summer.domain.entity.repository.product;
 
 import com.topsion.summer.application.ProductCreateCommand;
 import lombok.Getter;

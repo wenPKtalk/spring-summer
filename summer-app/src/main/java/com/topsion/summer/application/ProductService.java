@@ -1,7 +1,7 @@
 package com.topsion.summer.application;
 
-import com.topsion.summer.repository.product.ProductRepository;
-import com.topsion.summer.repository.product.entity.Product;
+import com.topsion.summer.domain.entity.repository.product.ProductRepository;
+import com.topsion.summer.domain.entity.repository.product.Product;
 import org.springframework.stereotype.Service;
 
 @Service
